@@ -1,0 +1,12 @@
+---
+# The prepare playbook executes actions which bring the system to a given
+# state prior to converge. It is executed after create, and only once for
+# the duration of the instances life.
+- name: Prepare
+  hosts: all
+  gather_facts: false
+  become: true
+  become_method: sudo
+  roles:
+    - role: robertdebock.bootstrap
+      bootstrap_preview: false

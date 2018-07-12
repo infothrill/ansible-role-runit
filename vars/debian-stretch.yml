@@ -1,0 +1,6 @@
+---
+runit_packages:
+  - runit
+  - runit-systemd
+
+runit_service: runit

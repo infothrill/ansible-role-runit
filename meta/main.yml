@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  role_name: runit
+  description: Role to install runit
+  company: "n/a"
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+  galaxy_tags:
+    - runit
+    - system
+  dependencies: []
