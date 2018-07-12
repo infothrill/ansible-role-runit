@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/travis/infothrill/ansible-role-runit/master.svg?label=travis_master)](https://travis-ci.org/infothrill/ansible-role-runit)
 [![Build Status](https://img.shields.io/travis/infothrill/ansible-role-runit/develop.svg?label=travis_develop)](https://travis-ci.org/infothrill/ansible-role-runit)
 [![Updates](https://pyup.io/repos/github/infothrill/ansible-role-runit/shield.svg)](https://pyup.io/repos/github/infothrill/ansible-role-runit/)
-[![Ansible Role](https://img.shields.io/ansible/role/x.svg)](https://galaxy.ansible.com/infothrill/runit/)
+[![Ansible Role](https://img.shields.io/ansible/role/27484.svg)](https://galaxy.ansible.com/infothrill/runit/)
 
 
 An [Ansible](http://www.ansible.com) role to install
