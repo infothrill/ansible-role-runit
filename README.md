@@ -14,7 +14,7 @@ An [Ansible](http://www.ansible.com) role to install
 requirements.yml:
 
 	- src: infothrill.runit
-	  version: v1.0
+	  version: v1.0.1
 
 Install:
 
@@ -44,6 +44,10 @@ This role was created in 2018 by Paul Kremer.
 
 
 ## Changes
+
+### v1.0.1
+
+* upgrades of test dependencies, maintenance only
 
 ### v1.0.0
 
