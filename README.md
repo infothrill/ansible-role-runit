@@ -45,6 +45,10 @@ This role was created in 2018 by Paul Kremer.
 
 ## Changes
 
+### v1.0.x
+
+* add testing support for ansible 2.8
+
 ### v1.0.1
 
 * upgrades of test dependencies, maintenance only
