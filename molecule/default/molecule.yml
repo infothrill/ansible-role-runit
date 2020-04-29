@@ -16,14 +16,14 @@ platforms:
   - name: debian-jessie-8
     box: bento/debian-8
     memory: 512
-  - name: ubuntu-trusty-14.04
-    box: ubuntu/trusty64
-    memory: 512
   - name: ubuntu-xenial-16.04
     box: ubuntu/xenial64
     memory: 512
   - name: ubuntu-bionic-18.04
     box: ubuntu/bionic64
+    memory: 512
+  - name: ubuntu-focal-20.04
+    box: ubuntu/focal64
     memory: 512
 provisioner:
   name: ansible

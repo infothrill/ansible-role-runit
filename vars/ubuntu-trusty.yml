@@ -1,5 +1,0 @@
----
-runit_packages:
-  - runit
-
-runit_service: runsvdir
