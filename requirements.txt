@@ -1,4 +1,4 @@
 ansible-lint==4.2.0
 molecule==2.22
 python-vagrant==0.5.15
-sh<=1.12.14  # issue with newer version, didn't investigate
+sh==1.13.1  # issue with newer version, didn't investigate
