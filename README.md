@@ -45,6 +45,10 @@ This role was created in 2018 by Paul Kremer.
 
 ## Changes
 
+### vx
+
+* drop support for python 2
+
 ### v1.1.0
 
 * add support for Ubuntu 20.04 (focal)
