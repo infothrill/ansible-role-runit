@@ -47,6 +47,7 @@ This role was created in 2018 by Paul Kremer.
 
 ### vx
 
+* Drop ansible <= 2.7 and add ansible 2.10 support
 * upgrade to molecule 3
 * add support for Debian 10 'Buster'
 * drop support for python 2
