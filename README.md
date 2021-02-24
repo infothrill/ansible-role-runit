@@ -51,6 +51,7 @@ This role was created in 2018 by Paul Kremer.
 * upgrade to molecule 3
 * add support for Debian 10 'Buster'
 * drop support for python 2
+* add support for python 3.7+
 * ensure apt cache is up-to-date when installing
 
 ### v1.1.0
