@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: runit
+  namespace: infothrill
   description: Role to install runit
   company: "n/a"
   author: "Paul Kremer"
