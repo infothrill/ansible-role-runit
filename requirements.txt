@@ -4,4 +4,4 @@ molecule-vagrant==1.0.0
 python-vagrant==1.0.0
 testinfra==6.0.0
 sh==1.14.3
-yamllint==1.27.1
+yamllint==1.28.0
