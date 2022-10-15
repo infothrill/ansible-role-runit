@@ -1,4 +1,7 @@
-ansible-lint==4.2.0
-molecule==2.22
-python-vagrant==0.5.15
-sh<=1.12.14  # issue with newer version, didn't investigate
+ansible-lint==6.8.2
+molecule==4.0.1
+molecule-vagrant==1.0.0
+python-vagrant==1.0.0
+testinfra==6.0.0
+sh==1.14.3
+yamllint==1.28.0

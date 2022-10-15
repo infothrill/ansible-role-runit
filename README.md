@@ -1,8 +1,6 @@
 # Ansible role runit
 
-[![Build Status](https://img.shields.io/travis/infothrill/ansible-role-runit/master.svg?label=travis_master)](https://travis-ci.org/infothrill/ansible-role-runit)
-[![Build Status](https://img.shields.io/travis/infothrill/ansible-role-runit/develop.svg?label=travis_develop)](https://travis-ci.org/infothrill/ansible-role-runit)
-[![Updates](https://pyup.io/repos/github/infothrill/ansible-role-runit/shield.svg)](https://pyup.io/repos/github/infothrill/ansible-role-runit/)
+![Build status](https://github.com/infothrill/ansible-role-runit/actions/workflows/tests.yml/badge.svg)
 [![Ansible Role](https://img.shields.io/ansible/role/27484.svg)](https://galaxy.ansible.com/infothrill/runit/)
 
 
@@ -44,6 +42,16 @@ This role was created in 2018 by Paul Kremer.
 
 
 ## Changes
+
+### vx
+
+* Switch to Github actions CI
+* Drop ansible <= 2.7 and add ansible 5, 6 support
+* upgrade to molecule 3
+* add support for Debian 10 'Buster'
+* add support for python 3.8+
+* drop support for python 2 and python 3.7
+* ensure apt cache is up-to-date when installing
 
 ### v1.1.0
 
