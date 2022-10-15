@@ -46,7 +46,7 @@ This role was created in 2018 by Paul Kremer.
 ### vx
 
 * Switch to Github actions CI
-* Drop ansible <= 2.7 and add ansible 2.10 support
+* Drop ansible <= 2.7 and add ansible 5, 6 support
 * upgrade to molecule 3
 * add support for Debian 10 'Buster'
 * add support for python 3.8+

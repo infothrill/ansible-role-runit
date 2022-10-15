@@ -1,18 +1,18 @@
 ---
-- name: set distro-specific variables
-  include_vars: '{{ item }}'
+- name: Set distro-specific variables
+  ansible.builtin.include_vars: "{{ item }}"
   with_first_found:
-    - '{{ ansible_distribution|lower }}-{{ ansible_distribution_release|lower }}.yml'
+    - "{{ ansible_distribution | lower }}-{{ ansible_distribution_release | lower }}.yml"
     - default.yml
 
-- name: install runit
-  apt:
+- name: Install runit
+  ansible.builtin.apt:
     name: "{{ item }}"
     state: present
     update_cache: true
   loop: "{{ runit_packages }}"
 
-- name: enable runsvdir service
-  service:
+- name: Enable runsvdir service
+  ansible.builtin.service:
     name: "{{ runit_service }}"
     state: started
