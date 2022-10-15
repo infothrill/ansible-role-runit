@@ -12,7 +12,7 @@ An [Ansible](http://www.ansible.com) role to install
 requirements.yml:
 
 	- src: infothrill.runit
-	  version: v1.1.0
+	  version: v1.2.0
 
 Install:
 
@@ -43,10 +43,10 @@ This role was created in 2018 by Paul Kremer.
 
 ## Changes
 
-### vx
+### v1.2.0
 
 * Switch to Github actions CI
-* Drop ansible <= 2.7 and add ansible 5, 6 support
+* Drop ansible older than 4 and add ansible 5, 6 support
 * upgrade to molecule 3
 * add support for Debian 10 'Buster'
 * add support for python 3.8+
