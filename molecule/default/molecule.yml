@@ -17,12 +17,6 @@ platforms:
   - name: debian-stretch-9
     box: bento/debian-9
     memory: 320
-  - name: debian-jessie-8
-    box: bento/debian-8
-    memory: 320
-  - name: ubuntu-xenial-16.04
-    box: ubuntu/xenial64
-    memory: 320
   - name: ubuntu-bionic-18.04
     box: ubuntu/bionic64
     memory: 320
