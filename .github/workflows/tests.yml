@@ -12,7 +12,7 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ['3.9', '3.10', '3.11']
-        ansible-version: ['6', '7']
+        ansible-version: ['6', '7', '8']
 
     steps:
       - uses: actions/checkout@v3
